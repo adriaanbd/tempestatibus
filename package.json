@@ -4,6 +4,10 @@
   "description": "Weather App using JS and the Open Weather API",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack --mode development",
+    "watch": "webpack --progress --watch",
+    "start": "webpack-dev-server --mode development --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +26,8 @@
   "devDependencies": {
     "eslint": "^6.3.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint-plugin-import": "^2.18.2",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
   }
 }
