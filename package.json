@@ -29,5 +29,8 @@
     "eslint-plugin-import": "^2.18.2",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
   }
 }
