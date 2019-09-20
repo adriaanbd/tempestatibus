@@ -1,0 +1,12 @@
+#search-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#submit {
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+}
