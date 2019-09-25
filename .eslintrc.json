@@ -18,6 +18,7 @@
         "prefer-destructuring": "off",
         "no-console": "off",
         "camelcase": "off",
-        "object-curly-newline": "off"
+        "object-curly-newline": "off",
+        "no-alert": "off"
     }
 }
