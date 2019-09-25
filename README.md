@@ -23,6 +23,6 @@ The above-mentioned steps are importante because the app won't work without your
 
 ## Author:
 
-Adriaan Beiertz([@adriaanbd])
+Adriaan Beiertz([@adriaanbd](https://github.com/adriaanbd))
 
 
