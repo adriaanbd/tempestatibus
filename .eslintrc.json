@@ -15,5 +15,9 @@
         "sourceType": "module"
     },
     "rules": {
+        "prefer-destructuring": "off",
+        "no-console": "off",
+        "camelcase": "off",
+        "object-curly-newline": "off"
     }
 }

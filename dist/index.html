@@ -20,30 +20,52 @@
       <div class="col s4"></div>
         <form class="col s4">
           <div class="row" id="search-row">
-            <input placeholder="Insert your city" id="city" type="text">
-            <button id="submit" class="btn waves-effect waves-light blue lighten-1 col s12" type="submit" name="action">Submit
-            </button>
+            <input placeholder="Insert your city" id="city" type="text" name='city'>
           </div>
+          <div id="temps">
+            <div class="col s1"></div>
+            <label class="col s5">
+              <input name="unit" type="radio" value="metric" id="c" checked />
+              <span>Celsius</span>
+            </label>
+            <label class="col s5">
+              <input name="unit" type="radio" value="imperial" id="f">
+              <span>Fahrenheit</span>
+            </label>
+            <div class="col s1"></div>
+          </div>
+          <input id="submit" class="btn waves-effect waves-light blue lighten-1 col s12" type="submit" name="action" value="Get Weather">
         </form>
       <div class="col s4"></div>
     </div>
     <div class="row">
-      <div class="col s3"></div>
-      <div class="col s6">
-        <div class="card">
+      <div class="col s4"></div>
+      <div class="col s4">
+        <div class="card" id="card">
           <div class="card-image">
-            <img src="" alt="Weather Picture">
-            <span class="card-title">Card Title</span>
+            <img id="icon" src="">
           </div>
-          <div class="card-content">
-            <p>Weather Information Here</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
+          <div class="card-content" id="content">
+            <div class="row">
+              <div class="col s2"></div>
+              <div class="col s4">
+                <div class="data">Temperature:</div>
+                <div class="data">Max Temp:</div>
+                <div class="data">Min Temp:</div>
+                <div class="data">Humidity:</div>
+              </div>
+              <div class="col s4">
+                <div class="data" id="temperature"></div>
+                <div class="data" id="max_temp"></div>
+                <div class="data" id="min_temp"></div>
+                <div class="data" id="humidity"></div>
+              </div>
+              <div class="col s2"></div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col s3"></div>
+      <div class="col s4"></div>
     </div>
   </div>
   <script src="main.js"></script>
