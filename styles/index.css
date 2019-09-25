@@ -1,0 +1,32 @@
+body {
+  min-width: 676px;
+}
+
+#card {
+  display: none;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+#icon {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#search-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+#temps {
+  display: flex;
+  margin-bottom: 0.5rem;
+  justify-content: space-around;
+}
