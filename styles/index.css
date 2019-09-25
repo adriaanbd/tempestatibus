@@ -4,9 +4,11 @@
   align-items: center;
   justify-content: center;
   margin-top: 1rem;
+  margin-bottom: 0;
 }
 
-#submit {
-  margin-left: 16px !important;
-  margin-right: 16px !important;
+#temps {
+  display: flex;
+  margin-bottom: 0.5rem;
+  justify-content: space-around;
 }

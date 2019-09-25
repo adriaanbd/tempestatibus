@@ -21,9 +21,18 @@
         <form class="col s4">
           <div class="row" id="search-row">
             <input placeholder="Insert your city" id="city" type="text" name='city'>
-            <input id="submit" class="btn waves-effect waves-light blue lighten-1 col s12" type="submit" name="action">
           </div>
+          <div id="temps">
+            <label class="col s6">
+              <input name="unit" type="radio" value="metric" id="c" checked />
+              <span>Celsius</span>
+            </label>
+            <label class="col s6">
+              <input name="unit" type="radio" value="imperial" id="f">
+              <span>Fahrenheit</span>
+            </label>
           </div>
+          <input id="submit" class="btn waves-effect waves-light blue lighten-1 col s12" type="submit" name="action" value="Get Weather">
         </form>
       <div class="col s4"></div>
     </div>
