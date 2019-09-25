@@ -1,3 +1,21 @@
+body {
+  min-width: 676px;
+}
+
+#card {
+  display: none;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+#icon {
+  max-width: 300px;
+  max-height: 300px;
+}
+
 #search-row {
   display: flex;
   flex-direction: column;
