@@ -25,10 +25,14 @@ const weatherStation = (
       const APP_ID = process.env.APP_ID;
       const baseUrl = 'https://api.openweathermap.org/data/2.5/weather?';
       const url = `${baseUrl}q=${city}&units=${unit}&appid=${APP_ID}`;
-      const response = await fetch(url);
-      const data = await response.json();
 
-      displayWeather(data);
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+        displayWeather(data);
+      } catch (err) {
+        alert('Either the city doesn\'t exist or something went terribly wrong!');
+      }
     };
 
     return {
